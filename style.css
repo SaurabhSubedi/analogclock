@@ -1,0 +1,45 @@
+.container {
+    height: 50vw;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clockContainer {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("pngfind.com-clock-icon-png-491535.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#seconds {
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    left: 48.9%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 22%;
+    width: 2%;
+    top: 29.5%;
+}
+
+#minute {
+    height: 30%;
+    width: 2%;
+    top: 21%;
+}
+
+#seconds {
+    height: 37%;
+    width: 2%;
+    top: 15%;
+}
